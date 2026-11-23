@@ -5,42 +5,97 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hookday: know what to post, every day</title>
   <meta name="description" content="Hookday tracks Indian festivals, trends and industry news and turns them into a ready-to-approve content calendar for your brand.">
+  <meta property="og:title" content="Hookday: know what to post, every day">
+  <meta property="og:description" content="Indian festivals, trends and industry news, turned into a content calendar for your brand.">
+  <meta property="og:image" content="https://hookday.in/assets/hookday-facebook-cover-1640x624.png">
   <link rel="icon" href="assets/hookday-icon-1024.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="wrap">
     <header class="site">
-      <a class="logo" href="/">hook<span>day</span></a>
-      <nav><a href="#how">How it works</a><a href="mailto:hello@hookday.in">Contact</a></nav>
+      <a class="logo" href="/"><img src="assets/hookday-icon.svg" alt="" width="32" height="32">hookday</a>
+      <nav><a href="#how">How it works</a><a href="#who">Who it's for</a><a class="nav-cta" href="#early-access">Get early access</a></nav>
     </header>
 
     <section class="hero">
-      <h1>Every day has a hook. Never miss yours.</h1>
-      <p class="lead">Hookday watches Indian festivals, trending topics and news in your industry, and turns them into a content calendar for your brand, with ideas ready to approve.</p>
-      <a class="btn" href="mailto:hello@hookday.in?subject=Hookday%20early%20access">Get early access</a>
-      <p class="note">Now inviting agencies and brands in India to try it free.</p>
+      <div class="hero-text">
+        <h1>Every day has a hook. Never miss yours.</h1>
+        <p class="lead">Hookday watches Indian festivals, trending topics and news in your industry, and turns them into a content calendar for your brand. Ideas arrive ready to approve.</p>
+        <a class="btn" href="#early-access">Get early access</a>
+        <p class="note">Free for our first agencies and brands.</p>
+      </div>
+
+      <div class="mock" aria-label="Example of a Hookday content calendar">
+        <div class="mock-head">
+          <span class="mock-title">Your week</span>
+          <span class="mock-brand">Bengaluru skincare brand</span>
+        </div>
+        <div class="idea">
+          <div class="idea-date"><b>12</b><span>Jan</span></div>
+          <div class="idea-body">
+            <span class="tag">Occasion</span>
+            <p class="idea-hook">"What 25-year-olds wish they knew about sunscreen"</p>
+            <p class="idea-why">National Youth Day · Instagram Reel</p>
+          </div>
+        </div>
+        <div class="idea">
+          <div class="idea-date"><b>14</b><span>Jan</span></div>
+          <div class="idea-body">
+            <span class="tag">Festival</span>
+            <p class="idea-hook">"Festive glow kit for Pongal and Sankranti"</p>
+            <p class="idea-why">Regional · Tamil and Kannada captions</p>
+          </div>
+        </div>
+        <div class="idea hot">
+          <div class="idea-date"><b>Now</b><span>alert</span></div>
+          <div class="idea-body">
+            <span class="tag tag-hot">Trending</span>
+            <p class="idea-hook">"Winter skin myths, busted"</p>
+            <p class="idea-why">Searches for dry skin rising in North India</p>
+          </div>
+          <span class="approve">Approve</span>
+        </div>
+      </div>
     </section>
 
-    <div class="grid">
-      <div class="card"><h3>Indian occasions, built in</h3><p>National, regional and state festivals with the right dates every year, plus awareness days, cricket, sale events and Budget day.</p></div>
-      <div class="card"><h3>Trends, caught early</h3><p>Rising topics from YouTube, Google and Indian news, matched to your brand so you post while it still matters.</p></div>
-      <div class="card"><h3>Your industry, watched</h3><p>Regulator updates, competitor moves and industry news turned into thought-leadership posts.</p></div>
-      <div class="card"><h3>Ideas you can approve</h3><p>Each idea comes with a hook, format, caption draft and the reason it's timely. Approve, edit or swap in one click.</p></div>
-    </div>
+    <section class="features">
+      <div class="feature"><h3>Indian occasions, built in</h3><p>National, regional and state festivals with the right dates every year, plus awareness days, cricket, sale events and Budget day.</p></div>
+      <div class="feature"><h3>Trends, caught early</h3><p>Rising topics from YouTube, Google and Indian news, matched to your brand so you post while it still matters.</p></div>
+      <div class="feature"><h3>Your industry, watched</h3><p>Regulator updates, competitor moves and industry news, turned into thought-leadership posts.</p></div>
+      <div class="feature"><h3>Ideas you can approve</h3><p>Every idea comes with a hook, format, caption draft and why it's timely. Approve, edit or swap in one click.</p></div>
+    </section>
 
     <section class="how" id="how">
       <h2>How it works</h2>
-      <ol>
-        <li><strong>Add your brand.</strong> Paste your website; Hookday learns your products, audience, tone and regions.</li>
-        <li><strong>Get your calendar.</strong> A two-week plan mixing festivals, trends, industry news and your evergreen themes.</li>
-        <li><strong>Approve and post.</strong> Edit what you like, export it, or send it to the tools you already use.</li>
-      </ol>
+      <div class="steps">
+        <div class="step"><span class="num">1</span><h3>Add your brand</h3><p>Paste your website. Hookday learns your products, audience, tone and regions.</p></div>
+        <div class="step"><span class="num">2</span><h3>Get your calendar</h3><p>A two-week plan mixing festivals, trends, industry news and your own themes.</p></div>
+        <div class="step"><span class="num">3</span><h3>Approve and post</h3><p>Edit what you like, export it, or send it to the tools you already use.</p></div>
+      </div>
+    </section>
+
+    <section class="who" id="who">
+      <h2>Who it's for</h2>
+      <div class="steps">
+        <div class="step"><h3>Agencies</h3><p>Plan calendars for every client in minutes, and share them for approval.</p></div>
+        <div class="step"><h3>Brands</h3><p>A content strategist that never sleeps, for teams of one to ten.</p></div>
+        <div class="step"><h3>Freelancers</h3><p>Stay on top of every niche you manage without the daily scroll.</p></div>
+      </div>
+    </section>
+
+    <section class="cta" id="early-access">
+      <h2>Be one of our first brands</h2>
+      <p>We're inviting a small group of agencies and brands in India to use Hookday free and shape what we build.</p>
+      <a class="btn btn-light" href="mailto:hello@hookday.in?subject=Hookday%20early%20access&body=Name%3A%0ACompany%3A%0AWebsite%3A%0AAgency%20or%20brand%3F%3A">Request early access</a>
     </section>
 
     <footer class="site">
       <span>&copy; 2026 Hookday. Made in India.</span>
-      <span><a href="privacy.html">Privacy policy</a> &nbsp;·&nbsp; <a href="terms.html">Terms</a> &nbsp;·&nbsp; <a href="data-deletion.html">Data deletion</a> &nbsp;·&nbsp; <a href="mailto:hello@hookday.in">hello@hookday.in</a></span>
+      <span><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="data-deletion.html">Data deletion</a> · <a href="mailto:hello@hookday.in">hello@hookday.in</a></span>
     </footer>
   </div>
 </body>
